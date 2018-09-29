@@ -17,6 +17,7 @@
 
     <activity android:name=".Main2Activity" android:label="Activity 2">
     </activity>
+        <service android:name=".service"></service>
     </application>
 
 </manifest>

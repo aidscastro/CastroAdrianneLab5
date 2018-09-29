@@ -17,15 +17,15 @@ public class MainActivity extends AppCompatActivity {
         startService(i);
     }
 
-    public void onClick(View v) {
+    public void process(View view) {
 
-        if (v.getId() == R.id.act1B){
+        if (view.getId() == R.id.act1B){
 
             Intent i = new Intent(MainActivity.this,Main2Activity.class);
 
             MainActivity.this.startActivity(i);
             Log.i("Content View"," Number 2 ");
-        }else if (v.getId() == R.id.act1B2){
+        }else if (view.getId() == R.id.act1B2){
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse("geo:14.580413, 120.983675"));
 
