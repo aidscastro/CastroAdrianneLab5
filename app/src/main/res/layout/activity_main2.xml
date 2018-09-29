@@ -115,7 +115,7 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="100dp"
                 android:onClick="process"
-                android:text="ACTIVITY 2" />
+                android:text="ACTIVITY 1" />
 
             <Button
                 android:id="@+id/act2B2"
